@@ -7,26 +7,8 @@
     list-style: none;
     color: rgb(0, 0, 0);
     max-width: 1400px;
-
-}
-
-
-
-li {
-   display: inline-flex;
-   margin-left: 150px;
-   color: antiquewhite;
-   
-}
-
-a {
-    text-decoration: none;
-    color: rgb(15, 15, 15);
-    text-align: center;
     
 }
-
-
 #header{
     width: 100%;
     height: 150px;
@@ -34,10 +16,33 @@ a {
     display: inline-flex;
     /* position: fixed;
     z-index: 1000; */
+     }
+
+     
+
+li {
+    display: inline-flex;
+    margin-left: 150px;
+    color: rgb(241, 239, 235);
+    
  }
- /*NAVBAR BOOSTRAP*/
+ 
+ a {
+     text-decoration: none;
+     color: rgb(15, 15, 15);
+     text-align: center;
+     
+ }
+ body{
+    display: flex;
+    flex-direction: column;
+    max-width: 1400px;
+    background: linear-gradient(rgb(236, 198, 214), rgb(233, 141, 217), rgb(240, 65, 202), rgb(250, 5, 168));
+}
+/*NAVBAR BOOSTRAP*/
 .navbar-brand img{
     width: 80px;
+    translate: -20px;
 }
 #navBar{
     width: 100%;
@@ -49,6 +54,11 @@ a {
     width: 100px;
     
 }
+.container-fluid{
+  
+    background: linear-gradient(rgb(241, 161, 195), rgb(233, 141, 217), rgb(240, 65, 202), rgb(253, 144, 217));
+}
+
 
 #main {
     margin-top: 10px;
@@ -57,15 +67,14 @@ a {
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-#body{
-    display: flex;
-    flex-direction: column;
-    max-width: 1400px;
+    
 }
 
 
+.carousel-item{
+    width: 500px;
+    height: 700px;
+}
 
 
 /*ESTILOS CONTENIDO*/
@@ -74,7 +83,7 @@ a {
     width: 100%;
     height: 50vh;
     margin-top: px;
-    background-image: url(images/banner.jpg);
+    background-image: url(../images/banner.jpg);
     background-repeat: no-repeat;
     background-size: contain;
     aspect-ratio: 1/1;
@@ -107,6 +116,7 @@ a {
 
 .inicio__contenido1 {
     text-align: center;
+    
 }
 
 /*SECCIÓN INICIO 2*/
@@ -120,9 +130,22 @@ a {
     width: 800px;
     height: 300px;
 }
+/*ESTILOS UBICACION*/
+.ubicacion{
+    width: 300px;
+    height: 300px;
+    align-content: center;
+}
 
 
 
+/*ESTILOS CASA*/
+.casa img{
+    width: 500px;
+    height: auto;
+    position: relative;
+    display: flex;
+}
 
 
 /*ESTILOS FOOTER*/
@@ -133,9 +156,9 @@ a {
     background-color: rgb(230, 111, 156);
     display: flex;
     justify-content: space-around;
-    align-items: center;
-    flex-wrap: wrap;
-}
+    align-items: center
+    flex-wrap; 
+ }
 
 /*FOOTER LOGO*/
 .footer__logo-picture-img{
@@ -145,9 +168,9 @@ a {
 /*FOOTER LINKS*/
 .footer__links {
     display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    flex-direction:column
+    
+
 }
 
 .footer__links-ul {
@@ -170,7 +193,6 @@ a {
     margin-left: 15px;
     font-size: 40px;
 }
-
 /*ESTILOS GRILLAS PAGE IMAGENES*/
 .grid{
     width: 100%;
@@ -179,7 +201,8 @@ a {
     display:flex;
     gap: 1px;
     flex-wrap:wrap
-    justify-content;center
+    
+    
  }
 
 .card{
@@ -209,11 +232,4 @@ a {
 }
 
 
-
-/*ESTILOS CASA*/
-.casa img{
-    width: 500px;
-    height: auto;
-    position: relative;
-    display: flex;
-}
+/*# sourceMappingURL=style.css.map */
